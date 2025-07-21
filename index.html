@@ -1,15 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>NPC Sorter</title>
-  <script src="data.js"></script>
-  <script src="sorter.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>NPC Sorter</h1>
-  <div id="sorter"></div>
+  <div id="mainbox">
+    <h1>NPC Sorter</h1>
+    <div id="startbutton" class="button">Empezar</div>
+    <div id="sorting" style="display:none;">
+      <div class="button-row">
+        <div id="left" class="button option"></div>
+        <div id="right" class="button option"></div>
+      </div>
+      <div class="button-row">
+        <div id="both" class="button small">I like both</div>
+        <div id="none" class="button small">No opinion</div>
+      </div>
+    </div>
+    <div id="result" style="display:none;">
+      <h2>Tu ranking:</h2>
+      <ol id="resultlist"></ol>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="sorter.js"></script>
 </body>
 </html>

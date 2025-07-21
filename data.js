@@ -1,4 +1,7 @@
-const dataSet = {
+const dataSetVersion = 'npc-sorter-1';
+const dataSet = {};
+
+dataSet[dataSetVersion] = {
   options: [
     ["Abel Mikaelson", ""],
     ["Adrián Lafferty", ""],

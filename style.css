@@ -1,11 +1,42 @@
 
 body {
-  font-family: sans-serif;
+  font-family: 'EB Garamond', serif;
   text-align: center;
-  padding: 50px;
+  margin: 40px;
+  background-color: #fdfcfb;
+  color: #2e2e2e;
 }
-button {
-  margin: 10px;
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.button {
+  border: 2px solid #333;
+  background-color: #fff;
   padding: 10px 20px;
-  font-size: 1.2em;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #eaeaea;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.option {
+  min-width: 200px;
+}
+
+.small {
+  font-size: 14px;
+  padding: 8px 16px;
 }
